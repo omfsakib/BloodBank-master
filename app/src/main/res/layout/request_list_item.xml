@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:background="@drawable/red_button_bg"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:src="@drawable/ic_blood_transfusion"
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/targetBG"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="O+"
+                    android:textColor="#F8F8F8"
+                    android:textSize="16sp" />
+                <TextView
+                    android:text=" Blood Donor!"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Contact: "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/targetCN"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="+8801928973719" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/reqstUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Requested by: Md Sohel Molla" />
+
+            <TextView
+                android:id="@+id/posted"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Posted: 11:30 PM, 17/10/2021" />
+
+            <TextView
+                android:id="@+id/reqstLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="From: Mirpur,Dhaka" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
